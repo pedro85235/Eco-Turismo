@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.center{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10%;
+    display: flex;
+    
+}
+h2{
+    color: rgb(8, 176, 5);
+    
+}
+.logo{
+    color: black;
+}
+.logo h2{
+    font-weight:normal;
+    color:rgb(255, 255, 255)
+}
+.txt h2{
+    font-weight: normal;
+}
+header{
+    background-color: rgb(8, 176, 5);
+    padding:20px 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+}
+.menu{
+    width: 2000%;
+    text-align: right;
+    height: 10px;
+}
+.menu a {
+    color:black;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 30px;
+    transition:0.4s;
+    
+}
+.menu a:hover{
+    color:white;
+}
+.menu .btn-menu{
+    background-color:#ffffff;
+    display:inline-block;
+    padding: 6px 12px;
+    color:black;
+    border-radius: 8px;
+}
+.menu .btn-menu:hover{
+    background-color: black;
+    color: white;
+}
+.carousel-item{
+    height: 13cm;
+    width: 100%;
+}
+.txt{
+    margin-left: 50px;
+}
+header h2 {
+    font-weight:normal;
+    color:rgb(255, 255, 255); 
+}
+.formulario{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: bolder;
+    position: relative;
+    width: 38%;
+    height: auto;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+.formulario h2{
+    text-align: start;
+    
+}
+.center1{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.main{
+    background-color: rgb(8, 176, 5);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+}
+.main_cta1{
+    width: 100%;
+    text-align: center;
+}
+.main_cta1 h2{
+    color: #ffffff;
+}
+.menu1{
+    width: 100%;
+    text-align: center;
+    height: 10px;
+}
+.menu1 .btn-menu1 a{
+    background-color:#ffffff;
+    display:inline-block;
+    padding: 6px 12px;
+    color:rgb(0, 0, 0);
+    border-radius: 8px;
+    transition:0.4s;
+    text-decoration: none;
+}
+.menu1 .btn-menu1 a:hover{
+    background-color: black;
+    color: white;
+}
+
